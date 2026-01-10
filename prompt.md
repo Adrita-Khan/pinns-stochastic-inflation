@@ -1,7 +1,5 @@
 ## Prompt for Claude to Implement PINNs for Stochastic Inflation
 
-Here's an effective prompt you can give to Claude:
-
 ***
 
 **Recommended Prompt:**
@@ -85,4 +83,4 @@ Please explain the key concepts as you implement them, especially:
 - How stochasticity is handled in the network
 ```
 
-This approach will help Claude provide you with comprehensive, working code tailored to your specific needs for accelerating stochastic inflation simulations.
+
