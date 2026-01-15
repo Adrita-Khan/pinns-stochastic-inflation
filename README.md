@@ -60,12 +60,25 @@ The total loss combines three components:
 
 ## References
 
-[1] Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. *Journal of Computational Physics*, 378, 686-707.
+1. Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019).  
+   *Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations.*  
+   Journal of Computational Physics, **378**, 686–707.
 
-[2] Starobinsky, A. A. (1986). Stochastic de Sitter (inflationary) stage in the early universe. In *Current Topics in Field Theory, Quantum Gravity and Strings* (pp. 107-126).
+2. Starobinsky, A. A. (1986).  
+   *Stochastic de Sitter (inflationary) stage in the early universe.*  
+   In *Current Topics in Field Theory, Quantum Gravity and Strings* (pp. 107–126). Springer.
 
-[3] Linde, A. (2008). Inflationary cosmology. *Physics of Particles and Nuclei*, 39(7), 971-1015.
+3. Linde, A. (2008).  
+   *Inflationary cosmology.*  
+   Physics of Particles and Nuclei, **39**(7), 971–1015.
 
-[4] arXiv:0907.5424 - https://arxiv.org/pdf/0907.5424
+4. Baumann, D. (2009).  
+   *TASI lectures on inflation.*  
+   arXiv:0907.5424  
+   https://arxiv.org/abs/0907.5424
 
-[5] arXiv:2403.10606 - https://arxiv.org/abs/2403.10606
+5. Mishra, S. S. (2024).  
+   *Cosmic inflation: Background dynamics, quantum fluctuations and reheating.*  
+   arXiv:2403.10606  
+   https://arxiv.org/abs/2403.10606
+
