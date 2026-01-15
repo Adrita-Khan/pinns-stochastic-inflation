@@ -1,7 +1,7 @@
 # Physics-Informed Neural Networks for Stochastic Inflation
 
 ## Overview
-This project explores the use of **Physics-Informed Neural Networks (PINNs)** to model the dynamics of stochastic inflation, providing an efficient alternative to traditional Monte Carlo simulations.
+This project explores the use of **Physics-Informed Neural Networks (PINNs)** to model the dynamics of stochastic inflation, providing an efficient alternative to traditional simulations.
 
 ## Background
 
