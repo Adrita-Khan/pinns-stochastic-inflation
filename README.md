@@ -1,5 +1,31 @@
 # Physics-Informed Neural Networks for Stochastic Inflation
 
+
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Issues](https://img.shields.io/badge/issues-open-brightgreen)](https://github.com/Adrita-Khan/pinns-stochastic-inflation/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Adrita-Khan/pinns-stochastic-inflation)](https://github.com/Adrita-Khan/pinns-stochastic-inflation/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+</div>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=ff8c00&center=true&vCenter=true&repeat=true&width=820&lines=Physics-Informed+Neural+Networks;Stochastic+Inflation+Dynamics;Quantum+Fluctuations+in+Cosmic+Inflation;Langevin+Equation+Modeling;PINNs+for+Cosmology;Neural+PDE+Solvers;Computational+Cosmology;Machine+Learning+for+Early+Universe" alt="Typing SVG" />
+</p>
+
+<p align="center">
+<i>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=39FF14&center=true&vCenter=true&repeat=true&width=900&lines=Exploratory+Machine+Learning+for+Inflationary+Cosmology;Stochastic+Processes+in+the+Early+Universe;Physics-Constrained+Deep+Learning;Quantum+Noise+Driven+Inflation;Alternative+to+Monte+Carlo+Simulations;Scalable+Neural+Solvers+for+Cosmology" alt="Typing SVG" />
+</i>
+</p>
+
+> **Note:** This project is ongoing and subject to continuous advancements and modifications.
+
+
+
 ## Overview
 This project explores the use of **Physics-Informed Neural Networks (PINNs)** to model the dynamics of stochastic inflation, providing an efficient alternative to traditional simulations.
 
@@ -58,27 +84,17 @@ The total loss combines three components:
    L_data = ||φ_pred - φ_ref||²
    ```
 
+
+
 ## References
 
-1. Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019).  
-   *Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations.*  
-   Journal of Computational Physics, **378**, 686–707.
+| Author(s) | Year | Title | Source | Links |
+|---------|------|-------|--------|-------|
+| Raissi, Perdikaris, Karniadakis | 2019 | Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear PDEs | *Journal of Computational Physics* 378, 686–707 | [PDF](https://indico.ictp.it/event/a12197/session/4/contribution/2/material/0/0.pdf) · [DOI](https://doi.org/10.1016/j.jcp.2018.10.045) |
+| Starobinsky | 1986 | Stochastic de Sitter (inflationary) stage in the early universe | *Lecture Notes in Physics* 246, 107–126 | [DOI](https://doi.org/10.1007/3-540-16452-9_6) · [Background](https://en.wikipedia.org/wiki/Starobinsky_inflation) |
+| Linde | 2008 | Inflationary cosmology | *Lecture Notes in Physics* 738, 1–54 | [DOI](https://doi.org/10.1007/978-3-540-74353-8_1) · [Book](https://www.taylorfrancis.com/books/mono/10.1201/9780367807788/particle-physics-inflationary-cosmology-andrei-linde) |
+| Baumann | 2009 | TASI lectures on inflation | arXiv:0907.5424 | [arXiv](https://arxiv.org/abs/0907.5424) · [Notes](https://faculty.sites.iastate.edu/hliu/files/inline-files/PINN_RPK_2019_1.pdf) |
+| Mishra | 2024 | Cosmic inflation: Background dynamics, quantum fluctuations and reheating | arXiv:2403.10606 | [arXiv](https://arxiv.org/abs/2403.10606) · [INSPIRE](https://inspirehep.net/files/21cef7e2d2ef50ab5ee95967bf608911) |
+| Senatore | 2013 | Lectures on inflation | CERN & Stanford Summer School | [Slides](https://ivanik3.narod.ru/Kosmology/LindeParticle.pdf) · [Indico](https://indico.ictp.it/event/a12197/session/4/contribution/2/material/0/0.pdf) |
 
-2. Starobinsky, A. A. (1986).  
-   *Stochastic de Sitter (inflationary) stage in the early universe.*  
-   In *Current Topics in Field Theory, Quantum Gravity and Strings* (pp. 107–126). Springer.
-
-3. Linde, A. (2008).  
-   *Inflationary cosmology.*  
-   Physics of Particles and Nuclei, **39**(7), 971–1015.
-
-4. Baumann, D. (2009).  
-   *TASI lectures on inflation.*  
-   arXiv:0907.5424  
-   https://arxiv.org/abs/0907.5424
-
-5. Mishra, S. S. (2024).  
-   *Cosmic inflation: Background dynamics, quantum fluctuations and reheating.*  
-   arXiv:2403.10606  
-   https://arxiv.org/abs/2403.10606
 
