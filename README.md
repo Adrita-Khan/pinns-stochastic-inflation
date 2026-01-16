@@ -98,3 +98,47 @@ The total loss combines three components:
 | Senatore | 2013 | Lectures on inflation | CERN & Stanford Summer School | [Slides](https://ivanik3.narod.ru/Kosmology/LindeParticle.pdf) · [Indico](https://indico.ictp.it/event/a12197/session/4/contribution/2/material/0/0.pdf) |
 
 
+
+
+# Physics-Informed Neural Networks (PINNs) in Cosmology
+
+## Complete Paper List
+
+| # | Title | Category | Paper Link | GitHub | Dataset | Year |
+|---|-------|----------|------------|--------|---------|------|
+| 1 | Cosmology-informed Neural Networks to infer dark energy equation-of-state | Dark Energy | [arXiv:2508.12032](https://arxiv.org/abs/2508.12032) | ❌ | [Pantheon+](https://archive.stsci.edu/prepds/ps1cosmo/) | 2025 |
+| 2 | Inferring Cosmological Parameters with Evidential Physics-Informed Neural Networks | Dark Energy | [arXiv:2509.24327](https://arxiv.org/abs/2509.24327) | ❌ | [Pantheon+](https://archive.stsci.edu/prepds/ps1cosmo/) | 2025 |
+| 3 | Unraveling particle dark matter with Physics-Informed Neural Networks | Dark Matter | [arXiv:2502.17597](https://arxiv.org/abs/2502.17597) | ❌ | ❌ | 2025 |
+| 4 | SPINN: Advancing Cosmological Simulations of Fuzzy Dark Matter | Dark Matter | [arXiv:2506.02957](https://arxiv.org/abs/2506.02957) | ❌ | ❌ | 2025 |
+| 5 | Physics-informed neural networks in recreation of hydrodynamic simulations | Dark Matter | [MNRAS 527(2)](https://academic.oup.com/mnras/article/527/2/3381/7342487) | ❌ | [SIMBA](https://simba.roe.ac.uk) | 2023 |
+| 6 | LensPINN: Learning Dark Matter Morphology in Lensing | Dark Matter | [NeurIPS 2024](https://ml4physicalsciences.github.io/2024/files/NeurIPS_ML4PS_2024_78.pdf) | [✅](https://github.com/ML4SCI/DeepLense) | ❌ | 2024 |
+| 7 | Physics-Informed Neural Networks for Galactic Gravitational Potentials | Galactic Dynamics | [NeurIPS 2025](https://ml4physicalsciences.github.io/2025/files/NeurIPS_ML4PS_2025_120.pdf) | ✅ | ❌ | 2025 |
+| 8 | Cosmology-informed neural networks for background dynamics of Universe | Background Dynamics | [PRD 107](https://link.aps.org/doi/10.1103/PhysRevD.107.063523) | [✅](https://github.com/at-chantada/cosmo-nets) | ❌ | 2023 |
+| 9 | Template-Fitting Meets Deep Learning: Redshift Estimation | Redshift | [arXiv:2507.00866](https://arxiv.org/abs/2507.00866) | ❌ | PREML | 2025 |
+
+## Datasets
+
+| Dataset | Link | Used By |
+|---------|------|---------|
+| Pantheon+ Type Ia Supernovae | [STScI Archive](https://archive.stsci.edu/prepds/ps1cosmo/) | Papers #1, #2 |
+| SIMBA Cosmological Simulations | [SIMBA Portal](https://simba.roe.ac.uk) | Paper #5 |
+| PREML (Hyper Suprime-Cam PDR3) | Not publicly linked | Paper #9 |
+
+## General Resources
+
+| Repository | Link |
+|------------|------|
+| maziarraissi/PINNs | [GitHub](https://github.com/maziarraissi/PINNs) |
+| omniscientoctopus/Physics-Informed-Neural-Networks | [GitHub](https://github.com/omniscientoctopus/Physics-Informed-Neural-Networks) |
+| georgestein/ml-in-cosmology | [GitHub](https://github.com/georgestein/ml-in-cosmology) |
+
+## Statistics
+
+| Metric | Value |
+|--------|-------|
+| Total Papers | 9 |
+| Papers with GitHub | 3 (33%) |
+| Papers with Datasets | 6 (67%) |
+| Publication Years | 2023: 2, 2024: 1, 2025: 6 |
+
+
