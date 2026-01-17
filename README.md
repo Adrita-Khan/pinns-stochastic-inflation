@@ -22,7 +22,7 @@
 </i>
 </p>
 
-> **Note:** This project is ongoing and subject to continuous advancements and modifications.
+> **Note:** The feasibility of this project is currently being explored, and it remains subject to continuous advancements and modifications.
 
 
 
