@@ -98,6 +98,16 @@ The total loss combines three components:
 | Senatore | 2013 | Lectures on inflation | CERN & Stanford Summer School | [Slides](https://ivanik3.narod.ru/Kosmology/LindeParticle.pdf) · [Indico](https://indico.ictp.it/event/a12197/session/4/contribution/2/material/0/0.pdf) |
 
 
+| # | Source | Link |
+|---|--------|------|
+| 1 | SSRN | https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5083429 |
+| 2 | arXiv:2106.09728 | https://arxiv.org/pdf/2106.09728 |
+| 3 | Nature | https://www.nature.com/articles/s41540-025-00500-6 |
+| 4 | EmergentMind | https://www.emergentmind.com/topics/physics-informed-stochastic-perturbation-scheme |
+| 5 | arXiv:2109.01621 | https://arxiv.org/pdf/2109.01621 |
+| 6 | ICCS 2025 | https://www.iccs-meeting.org/archive/iccs2025/papers/159090262.pdf |
+| 7 | arXiv:2204.03859 | https://arxiv.org/pdf/2204.03859 |
+| 8 | arXiv:2010.12685 | https://arxiv.org/pdf/2010.12685 |
 
 
 # Physics-Informed Neural Networks (PINNs) in Cosmology
