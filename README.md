@@ -45,7 +45,7 @@ where:
 - ξ(t) is Gaussian white noise with
   ⟨ξ(t)⟩ = 0 and ⟨ξ(t) ξ(t')⟩ = δ(t − t')
   
-### Traditional Approach: Monte Carlo Simulations
+## Traditional Approach: Monte Carlo Simulations
 - **Process**: Generate billions of stochastic realizations
 - **Challenges**:
   - Computationally expensive (hours of computation)
@@ -53,7 +53,7 @@ where:
   - Statistical convergence requires many realizations
   - Not reusable across different parameter sets
 
-### PINN Approach
+## PINN Approach
 Physics-Informed Neural Networks embed physical laws directly into the neural network training process through the loss function:
 
 ```
@@ -111,9 +111,8 @@ The total loss combines three components:
 | 8 | arXiv:2010.12685 | https://arxiv.org/pdf/2010.12685 |
 
 
-# Physics-Informed Neural Networks (PINNs) in Cosmology
+## Physics-Informed Neural Networks (PINNs) in Cosmology
 
-## Complete Paper List
 
 | # | Title | Category | Paper Link | GitHub | Dataset | Year |
 |---|-------|----------|------------|--------|---------|------|
@@ -143,13 +142,5 @@ The total loss combines three components:
 | omniscientoctopus/Physics-Informed-Neural-Networks | [GitHub](https://github.com/omniscientoctopus/Physics-Informed-Neural-Networks) |
 | georgestein/ml-in-cosmology | [GitHub](https://github.com/georgestein/ml-in-cosmology) |
 
-## Statistics
-
-| Metric | Value |
-|--------|-------|
-| Total Papers | 9 |
-| Papers with GitHub | 3 (33%) |
-| Papers with Datasets | 6 (67%) |
-| Publication Years | 2023: 2, 2024: 1, 2025: 6 |
 
 
