@@ -35,15 +35,16 @@ This project explores the use of **Physics-Informed Neural Networks (PINNs)** to
 During cosmic inflation, quantum fluctuations of the inflaton field lead to stochastic dynamics described by the Langevin equation:
 
 ```
-dφ/dt = -V'(φ)/(3H) + (H/2π)ξ(t)
+dφ/dt = -V'(φ)/(3H) + (H^(3/2)/(2π)) ξ(t)
 ```
 
 where:
 - φ is the inflaton field
 - V(φ) is the inflaton potential
 - H is the Hubble parameter during inflation
-- ξ(t) is Gaussian white noise
-
+- ξ(t) is Gaussian white noise with
+  ⟨ξ(t)⟩ = 0 and ⟨ξ(t) ξ(t')⟩ = δ(t − t')
+  
 ### Traditional Approach: Monte Carlo Simulations
 - **Process**: Generate billions of stochastic realizations
 - **Challenges**:
