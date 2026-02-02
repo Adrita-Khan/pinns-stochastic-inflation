@@ -30,20 +30,16 @@
 This project explores the use of **Physics-Informed Neural Networks (PINNs)** to model the dynamics of stochastic inflation, providing an efficient alternative to traditional simulations.
 
 ## Background
-
 ### The Problem
 During cosmic inflation, quantum fluctuations of the inflaton field lead to stochastic dynamics described by the Langevin equation:
 
-```
-dφ/dt = -V'(φ)/(3H) + (H^(3/2)/(2π)) ξ(t)
-```
+$$\frac{d\phi}{dt} = -\frac{V'(\phi)}{3H} + \frac{H^{3/2}}{2\pi} \xi(t)$$
 
 where:
-- φ is the inflaton field
-- V(φ) is the inflaton potential
-- H is the Hubble parameter during inflation
-- ξ(t) is Gaussian white noise with
-  ⟨ξ(t)⟩ = 0 and ⟨ξ(t) ξ(t')⟩ = δ(t − t')
+- $\phi$ is the inflaton field
+- $V(\phi)$ is the inflaton potential
+- $H$ is the Hubble parameter during inflation
+- $\xi(t)$ is Gaussian white noise with $\langle\xi(t)\rangle = 0$ and $\langle\xi(t) \xi(t')\rangle = \delta(t - t')$
   
 ## Traditional Approach: Monte Carlo Simulations
 - **Process**: Generate billions of stochastic realizations
@@ -56,35 +52,36 @@ where:
 ## PINN Approach
 Physics-Informed Neural Networks embed physical laws directly into the neural network training process through the loss function:
 
-```
-Loss = Loss_IC + Loss_physics + Loss_data
-```
+$$\mathcal{L} = \mathcal{L}_{\text{IC}} + \mathcal{L}_{\text{physics}} + \mathcal{L}_{\text{data}}$$
 
 where:
-- `Loss_IC`: Enforces initial conditions
-- `Loss_physics`: Enforces the governing differential equation
-- `Loss_data`: Matches available data (if any)
+- $\mathcal{L}_{\text{IC}}$: Enforces initial conditions
+- $\mathcal{L}_{\text{physics}}$: Enforces the governing differential equation
+- $\mathcal{L}_{\text{data}}$: Matches available data (if any)
 
 ## Methodology
 
 ### PINN Loss Function
+
 The total loss combines three components:
 
 1. **Initial Condition Loss**:
-   ```
-   L_IC = ||φ_pred(0) - φ₀||²
-   ```
+
+$$
+\mathcal{L}_{\text{IC}} = ||\phi_{\text{pred}}(0) - \phi_0||^2
+$$
 
 2. **Physics Loss** (enforces the Langevin equation):
-   ```
-   L_physics = ||∂φ/∂t + V'(φ)/(3H)||²
-   ```
+
+$$
+\mathcal{L}_{\text{physics}} = \left|\left|\frac{\partial\phi}{\partial t} + \frac{V'(\phi)}{3H}\right|\right|^2
+$$
 
 3. **Data Loss** (if reference data available):
-   ```
-   L_data = ||φ_pred - φ_ref||²
-   ```
 
+$$
+\mathcal{L}_{\text{data}} = ||\phi_{\text{pred}} - \phi_{\text{ref}}||^2
+$$
 
 
 ## References
