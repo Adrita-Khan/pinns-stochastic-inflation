@@ -29,6 +29,42 @@
 ## Overview
 This project explores the use of **Physics-Informed Neural Networks (PINNs)** to model the dynamics of stochastic inflation, providing an efficient alternative to traditional simulations.
 
+## Workflow
+
+```mermaid
+flowchart TD
+    Start([Stochastic Inflation<br/>Langevin Equation]) --> Decision{Solution Approach?}
+    
+    %% Monte Carlo Path
+    Decision -->|Traditional| MC["Monte Carlo:<br/>Expensive & Memory Intensive"]
+    MC --> MCOut[Statistical Results]
+    
+    %% PINN Path
+    Decision -->|PINN| NN["Neural Network<br/>t to φ(t)"]
+    
+    NN --> Loss["Loss Function:<br/>L = L_IC + L_physics + L_data"]
+    
+    Loss --> Train[Train via<br/>Backpropagation]
+    
+    Train --> Model[Trained Model]
+    
+    Model --> PINNOut["Fast, Reusable,<br/>Physics-Constrained"]
+    
+    MCOut --> Final([Efficient Alternative])
+    PINNOut --> Final
+    
+    %% Styling
+    classDef problemStyle fill:#ff6b6b,stroke:#c92a2a,stroke-width:2px,color:#fff
+    classDef traditionalStyle fill:#ffd93d,stroke:#f08c00,stroke-width:2px
+    classDef pinnStyle fill:#51cf66,stroke:#2f9e44,stroke-width:2px
+    classDef outputStyle fill:#b197fc,stroke:#7950f2,stroke-width:2px,color:#fff
+    
+    class Start problemStyle
+    class MC,MCOut traditionalStyle
+    class NN,Loss,Train,Model,PINNOut pinnStyle
+    class Final outputStyle
+```
+
 ## Background
 ### The Problem
 During cosmic inflation, quantum fluctuations of the inflaton field lead to stochastic dynamics described by the Langevin equation:
@@ -138,6 +174,3 @@ $$
 | maziarraissi/PINNs | [GitHub](https://github.com/maziarraissi/PINNs) |
 | omniscientoctopus/Physics-Informed-Neural-Networks | [GitHub](https://github.com/omniscientoctopus/Physics-Informed-Neural-Networks) |
 | georgestein/ml-in-cosmology | [GitHub](https://github.com/georgestein/ml-in-cosmology) |
-
-
-
